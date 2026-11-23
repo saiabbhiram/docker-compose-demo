@@ -1,0 +1,39 @@
+# --- Node.js (backend) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnp.*
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Docker ---
+# (Dockerfiles and compose.yaml SHOULD be committed — don't ignore them)
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# --- Build output / coverage ---
+dist/
+build/
+coverage/
+.nyc_output/
+
+# --- Temporary / misc ---
+tmp/
+temp/
+*.local
